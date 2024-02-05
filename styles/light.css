@@ -1,0 +1,100 @@
+/* CSS Reset & Global Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #dbb8eb 50%, #2B86C5 100%);
+  ;
+  transition: 0.8s all;
+}
+
+h1 {
+  margin-bottom: 1.5%;
+  color: #228738;
+  font-weight: normal;
+}
+
+.container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.top-buttons {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 25px;
+  color: rgb(189, 16, 16);
+  font-size: 20px;
+  cursor: pointer;
+  width: 70px;
+  background-color: #744bb3;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  margin: 0.2em;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  margin-bottom: 4px;
+}
+
+input[type="button"] {
+  color: rgb(162, 237, 31);
+}
+
+input[type="text"] {
+  background-color: rgb(163, 219, 219);
+  width: 222.5px;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(53, 66, 3);
+  color: #fff;
+}
+
+#clear-button {
+  color: #fff;
+  background-color: rgb(21, 87, 90);
+}
+
+a {
+  text-decoration: none;
+  color: #8a7c7c;
+}
+
+#github-icon {
+  margin-right: 10px;
+}
+
+.theme-button {
+  all: unset;
+  cursor: pointer;
+}
